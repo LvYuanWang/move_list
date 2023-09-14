@@ -1,0 +1,25 @@
+@itemWidth: 150px;
+
+.container {
+    width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    font-size: 14px;
+    row-gap: 30px;
+
+    img {
+        width: @itemWidth;
+        height: 200px;
+    }
+}
+
+.title {
+    margin: 10px 0 5px 0;
+}
+
+.rate {
+    color: #e4a64a;
+    font-size: 12px;
+}

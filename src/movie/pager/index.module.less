@@ -1,0 +1,23 @@
+.pager {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+
+    span {
+        margin: 0 7px;
+        font-size: 14px;
+        cursor: pointer;
+        color: #4cb1f5;
+
+        &.disabled {
+            color: #ccc;
+            cursor: no-drop;
+        }
+
+        &.active {
+            color: red;
+            cursor: auto;
+        }
+    }
+}
